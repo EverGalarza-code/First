@@ -11,8 +11,10 @@
         <button>SUBMIT</button>
     </form>
     <?php
-        $name = $_GET['person'];
-        echo $name."This is actually very simple";
+        //This gets something from the database
+
+        /*$name = $_GET['person'];
+        echo $name."This is actually very simple";*/
     ?>
    
     
