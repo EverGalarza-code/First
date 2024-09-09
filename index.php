@@ -6,10 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    <form method="GET">
+        <input type="text" name="person">
+        <button>SUBMIT</button>
+    </form>
     <?php
-    echo "My first website";
+        $name = $_GET['person'];
+        echo $name."This is actually very simple";
     ?>
-<h1>My first website</h1>
+   
     
 </body>
 </html>
