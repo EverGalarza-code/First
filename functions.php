@@ -26,6 +26,22 @@
         newCalc($a);
 
     ?>
+    <br>
+    <?php
+
+    function calculateCircumference($radius) {
+        $circumference = 2 * pi() * $radius;
+        echo "The circumference of a circle with radius $radius is " . number_format($circumference, 2) . ".";
+    }
+
+    $radius1 = 5;
+    $radius2 = 10;
+
+    calculateCircumference($radius1);
+    echo "<br>";
+    calculateCircumference($radius2);
+    
+    ?>
    
     
 </body>

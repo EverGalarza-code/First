@@ -10,7 +10,7 @@
     <?php
             $array = array("Ever", "Isaac", "Brian", "Victor", "Omar");
 
-            echo $array[2];
+            echo $array[0];
     ?>
    
     
