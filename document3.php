@@ -1,5 +1,5 @@
 <?php
-    fucntion () {
+    function () {
         
     }
 ?>

@@ -1,5 +1,5 @@
 <?php
-    include 'first/document3.php';
+    include 'document3.php';
 ?>
 
 
