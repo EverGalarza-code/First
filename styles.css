@@ -1,3 +1,7 @@
+.navbar {
+    background-color: blue !important;
+}
+
 p {
     text-align: center;
     font-size: 120px;
@@ -6,3 +10,4 @@ p {
 
 
 }
+
