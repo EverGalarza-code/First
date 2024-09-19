@@ -3,48 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Coding II Test</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+  </head>
   <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            php examples
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="arrays.php">Arrays</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="calculator.php">Calculator</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="calender.php">Calender</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="conditionals.php">Conditionals</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="datatypes.php">Data Types</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="functions.php">Functions</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="loops.php">Loops</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="operatorsx.php">Operators</a></li>
-        <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="scopes.php">Scopes</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-      
     </div>
   </div>
 </nav>
