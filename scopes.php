@@ -1,3 +1,8 @@
+<?php
+
+include 'includes/header.php';
+
+    ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,11 +14,7 @@
   </head>
   <body>
 
-  <?php
-
-include 'includes/header.php';
-
-    ?>
+  
     
 <?php
     /*

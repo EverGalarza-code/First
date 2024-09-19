@@ -1,3 +1,8 @@
+<?php
+
+include 'includes/header.php';
+
+    ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,12 +14,7 @@
   </head>
 <body>
 
-<?php
 
-include 'includes/header.php';
-
-    ?>
-    
 
     </form>
     <?php
@@ -35,7 +35,7 @@ include 'includes/header.php';
 
        //Array
        $names = array("Ever","Isaac","Brian");
-       echo $names['3'];
+       echo $names['2'];
     ?>
    
     
