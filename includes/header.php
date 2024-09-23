@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -43,14 +46,25 @@
         <li class="nav-item">
           <a class="nav-link" href="operators.php">Operators</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="scopes.php">Scopes</a>
-        </li>
-        </li>
       </ul>
     </div>
   </div>
 </nav>
+
+  <?php
+  
+  $_SESSION['username'] = "Ever2008G";
+  echo $_SESSION['username'];
+
+  if (!isset($_SESSION['username'])) {
+    echo "You are not logged in!";
+  }
+  else {
+    echo "you are logged in!";
+  }
+
+
+  ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
