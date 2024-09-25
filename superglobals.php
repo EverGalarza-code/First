@@ -14,7 +14,7 @@
     
     
     <?php
-            setcookie("name", "Ever", time() + 172800);
+            setcookie("name", "Ever", time() - 172800);
     ?>
    
     
