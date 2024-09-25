@@ -1,0 +1,8 @@
+create table posts (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    subject varchar(128) not null,
+    Content varchar(1000) not null,
+    date datetime not null
+);
+    
+    insert into posts (subject, content, date) VALUES ('AP US History', 'AP U.S. History (APUSH) is a college-level course that explores American history from pre-Columbian times to the present, emphasizing critical thinking, analysis of primary sources, and key historical themes. The course prepares students for the AP exam, which assesses their understanding through multiple-choice questions and essays.', '2024-9-24 21:00');
