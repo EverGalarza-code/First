@@ -15,15 +15,21 @@ include 'includes/header.php';
   <body>
     <h1>Hello, world!</h1>
 
-    <form method="GET">
-        <input type="text" name="person">
-        <button>SUBMIT</button>
-    </form>
+    
+
+    <main>
+      <?php
+      if (isset($_SESSION['userId'])){
+        echo '<p>You are logged in!</p>';
+      }
+      else {
+        echo '<p>You are logged out!</p>';
+      }
+      ?>
+    </main>
 
     <?php
-        $name = $_GET['person'];
-        echo $name."This is actually very simple";
+    require "footer.php"
     ?>
-    
   </body>
 </html>
