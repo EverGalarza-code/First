@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif !important;
+    background-color: #f0f4f8 !important; /* Light background for contrast */
+    margin: 0 !important; /* Remove default margin */
+    padding: 0 !important; /* Remove default padding */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40 !important; /* Dark background for navbar */
+    padding: 1rem !important; /* Add some padding */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* White text for brand */
+    font-size: 1.8rem !important; /* Increase brand font size */
+    font-weight: bold !important; /* Bold brand text */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White text for links */
+    margin: 0 15px !important; /* Spacing between nav items */
+    transition: color 0.3s !important; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Yellow color on hover */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff !important; /* Bootstrap primary color */
+    border: none !important; /* Remove default border */
+    color: white !important; /* White text */
+    padding: 10px 20px !important; /* Padding inside buttons */
+    border-radius: 5px !important; /* Rounded corners */
+    cursor: pointer !important; /* Pointer on hover */
+    transition: background-color 0.3s !important; /* Smooth background color transition */
+    font-size: 1rem !important; /* Font size for buttons */
+}
+
+button:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+}
+
+/* Input Styles */
+input[type="text"], input[type="password"] {
+    padding: 10px !important; /* Padding inside inputs */
+    border: 1px solid #ced4da !important; /* Light border */
+    border-radius: 5px !important; /* Rounded corners */
+    width: 220px !important; /* Fixed width */
+    margin-right: 10px !important; /* Spacing between input fields */
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff !important; /* Change border color on focus */
+    outline: none !important; /* Remove outline */
+}
+
+/* Form Styles */
+form {
+    display: flex !important; /* Use flexbox for better alignment */
+    align-items: center !important; /* Center items vertically */
+    margin-left: auto !important; /* Align form to the right */
+}
+
+/* Signup Button Styles */
+.signup-btn {
+    background-color: #28a745 !important; /* Green color for signup button */
+    padding: 10px 20px !important; /* Padding for signup button */
+    margin-left: 10px !important; /* Space between login button and signup button */
+}
+
+.signup-btn:hover {
+    background-color: #218838 !important; /* Darker green on hover */
+}
+
+/* Signup Link Styles */
+a {
+    color: #007bff !important; /* Bootstrap primary color */
+    text-decoration: none !important; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline !important; /* Underline on hover */
+}
