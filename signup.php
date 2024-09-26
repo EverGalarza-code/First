@@ -55,8 +55,6 @@ require 'includes/header.php';
       </div>
     </main>
 
-    <?php
-    require "footer.php"
-    ?>
+    
   </body>
 </html>
